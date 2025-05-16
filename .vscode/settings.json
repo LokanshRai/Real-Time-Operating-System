@@ -1,0 +1,9 @@
+{
+    "files.associations": {
+        "ae_usr_tasks.h": "c",
+        "ae_priv_tasks.h": "c",
+        "printf.h": "c",
+        "k_mem.h": "c",
+        "k_rtx.h": "c"
+    }
+}

@@ -1,0 +1,653 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="com.arm.debugger.launcher2">
+    <listAttribute key="1947036089719026861.viewid=2">
+        <listEntry value="head"/>
+        <listEntry value="previous"/>
+        <listEntry value="H1"/>
+    </listAttribute>
+    <mapAttribute key="1947036089719026861.viewid=2.ExpressionsData">
+        <mapEntry key="0" value="NODE_TRANSFER_ELEMENT_COUNT,1;NODE_TRANSFER_ELEMENT_SIZE_IN_BYTES,4;NODE_TYPE,VALUE;FORMATTER,Hexadecimal"/>
+        <mapEntry key="1" value="NODE_TRANSFER_ELEMENT_COUNT,1;NODE_TRANSFER_ELEMENT_SIZE_IN_BYTES,4;NODE_TYPE,VALUE;FORMATTER,Hexadecimal"/>
+        <mapEntry key="2" value="NODE_TRANSFER_ELEMENT_COUNT,1;NODE_TRANSFER_ELEMENT_SIZE_IN_BYTES,4;NODE_TYPE,VALUE;FORMATTER,Hexadecimal"/>
+    </mapAttribute>
+    <stringAttribute key="1947036089719026861.viewid=2:DebugOutlineColumnState" value="OutlineConfig1&#9;8&#9;0&#9;true&#9;true&#9;187&#9;-1&#9;true&#9;1&#9;false&#9;true&#9;90&#9;-1&#9;true&#9;2&#9;true&#9;true&#9;45&#9;-1&#9;true&#9;3&#9;true&#9;true&#9;41&#9;-1&#9;true&#9;4&#9;true&#9;true&#9;50&#9;-1&#9;true&#9;5&#9;true&#9;true&#9;37&#9;-1&#9;true&#9;6&#9;true&#9;true&#9;62&#9;-1&#9;true&#9;7&#9;true&#9;true&#9;53&#9;-1&#9;true"/>
+    <mapAttribute key="AverageDurationTracker">
+        <mapEntry key="*Fetching Data Model" value="106213"/>
+        <mapEntry key="*list global low level symbols" value="565446"/>
+        <mapEntry key="*loading memory from target" value="4708666"/>
+        <mapEntry key="*loading values from target" value="4756277"/>
+        <mapEntry key="*updating expressions" value="63111786"/>
+        <mapEntry key="*updating local_variables" value="319412"/>
+        <mapEntry key="*updating registers" value="100339369"/>
+        <mapEntry key="*updating variables" value="722495"/>
+        <mapEntry key="AddEventObserver" value="2933690"/>
+        <mapEntry key="Evaluate" value="1554085"/>
+        <mapEntry key="Retrieving globals list" value="2694051"/>
+        <mapEntry key="SourceToAddress" value="898600"/>
+        <mapEntry key="areCachesAvailable" value="281127"/>
+        <mapEntry key="backtrace" value="880880"/>
+        <mapEntry key="break" value="7290774"/>
+        <mapEntry key="compute execution mode" value="572755"/>
+        <mapEntry key="continue" value="10400337"/>
+        <mapEntry key="core" value="1106328"/>
+        <mapEntry key="disable" value="6454400"/>
+        <mapEntry key="disassemble" value="97245097"/>
+        <mapEntry key="evaluate address" value="498494"/>
+        <mapEntry key="finish" value="6459312"/>
+        <mapEntry key="get byte order" value="257923"/>
+        <mapEntry key="get capabilities" value="688759"/>
+        <mapEntry key="get execution addresss" value="322053"/>
+        <mapEntry key="get source lines" value="236546"/>
+        <mapEntry key="getValidEncodings" value="230219"/>
+        <mapEntry key="initialize command help" value="42573763"/>
+        <mapEntry key="interrupt" value="9559683"/>
+        <mapEntry key="list breakpoint options" value="90343"/>
+        <mapEntry key="list breakpoints" value="2344986"/>
+        <mapEntry key="list instruction sets" value="99667"/>
+        <mapEntry key="list signals" value="9044248"/>
+        <mapEntry key="list watchpoint options" value="129947"/>
+        <mapEntry key="list watchpoints" value="177667"/>
+        <mapEntry key="loadfile" value="135766541"/>
+        <mapEntry key="next" value="39577486"/>
+        <mapEntry key="reload-symbol-file" value="47549189"/>
+        <mapEntry key="remove" value="9332986"/>
+        <mapEntry key="select-frame" value="737536"/>
+        <mapEntry key="set CWD" value="993345"/>
+        <mapEntry key="set breakpoint properties" value="14488818"/>
+        <mapEntry key="set breakpoint skipmode off" value="29836412"/>
+        <mapEntry key="set breakpoint skipmode on" value="18576412"/>
+        <mapEntry key="set debug-from" value="388408"/>
+        <mapEntry key="source altera_target_check.py" value="301516829"/>
+        <mapEntry key="start" value="26923680"/>
+        <mapEntry key="step" value="27570341"/>
+        <mapEntry key="target reset" value="1156255200"/>
+        <mapEntry key="toggleBreakpoint" value="8586286"/>
+        <mapEntry key="waitForTargetToStop" value="5123381"/>
+        <mapEntry key="write memory" value="10809820"/>
+    </mapAttribute>
+    <intAttribute key="DEBUG_TAB..RESOURCES.COUNT" value="0"/>
+    <intAttribute key="FILES.CONNECT_TO_GDB_SERVER.RESOURCES.COUNT" value="0"/>
+    <intAttribute key="FILES.DEBUG_EXISTING_ANDROID.RESOURCES.COUNT" value="0"/>
+    <listAttribute key="FILES.DEBUG_RESIDENT_ANDROID"/>
+    <stringAttribute key="FILES.DEBUG_RESIDENT_ANDROID.RESOURCES.0.TYPE" value="TARGET_WORKING_DIR"/>
+    <stringAttribute key="FILES.DEBUG_RESIDENT_ANDROID.RESOURCES.0.VALUE" value=""/>
+    <intAttribute key="FILES.DEBUG_RESIDENT_ANDROID.RESOURCES.COUNT" value="1"/>
+    <listAttribute key="FILES.DEBUG_RESIDENT_APP"/>
+    <stringAttribute key="FILES.DEBUG_RESIDENT_APP.RESOURCES.0.TYPE" value="TARGET_WORKING_DIR"/>
+    <stringAttribute key="FILES.DEBUG_RESIDENT_APP.RESOURCES.0.VALUE" value=""/>
+    <stringAttribute key="FILES.DEBUG_RESIDENT_APP.RESOURCES.1.TYPE" value="APPLICATION_ON_TARGET"/>
+    <stringAttribute key="FILES.DEBUG_RESIDENT_APP.RESOURCES.1.VALUE" value=""/>
+    <intAttribute key="FILES.DEBUG_RESIDENT_APP.RESOURCES.COUNT" value="2"/>
+    <listAttribute key="FILES.DOWNLOAD_AND_DEBUG"/>
+    <stringAttribute key="FILES.DOWNLOAD_AND_DEBUG.RESOURCES.0.OPTION.ALSO_LOAD_SYMBOLS" value="true"/>
+    <stringAttribute key="FILES.DOWNLOAD_AND_DEBUG.RESOURCES.0.OPTION.ON_DEMAND_LOAD" value="true"/>
+    <stringAttribute key="FILES.DOWNLOAD_AND_DEBUG.RESOURCES.0.TYPE" value="TARGET_WORKING_DIR"/>
+    <stringAttribute key="FILES.DOWNLOAD_AND_DEBUG.RESOURCES.0.VALUE" value=""/>
+    <stringAttribute key="FILES.DOWNLOAD_AND_DEBUG.RESOURCES.1.OPTION.ALSO_LOAD_SYMBOLS" value="true"/>
+    <stringAttribute key="FILES.DOWNLOAD_AND_DEBUG.RESOURCES.1.OPTION.ON_DEMAND_LOAD" value="true"/>
+    <stringAttribute key="FILES.DOWNLOAD_AND_DEBUG.RESOURCES.1.TYPE" value="APP_ON_HOST_TO_DOWNLOAD"/>
+    <stringAttribute key="FILES.DOWNLOAD_AND_DEBUG.RESOURCES.1.VALUE" value=""/>
+    <stringAttribute key="FILES.DOWNLOAD_AND_DEBUG.RESOURCES.2.OPTION.ALSO_LOAD_SYMBOLS" value="true"/>
+    <stringAttribute key="FILES.DOWNLOAD_AND_DEBUG.RESOURCES.2.OPTION.ON_DEMAND_LOAD" value="true"/>
+    <stringAttribute key="FILES.DOWNLOAD_AND_DEBUG.RESOURCES.2.TYPE" value="TARGET_DOWNLOAD_DIR"/>
+    <stringAttribute key="FILES.DOWNLOAD_AND_DEBUG.RESOURCES.2.VALUE" value=""/>
+    <intAttribute key="FILES.DOWNLOAD_AND_DEBUG.RESOURCES.COUNT" value="3"/>
+    <listAttribute key="FILES.DOWNLOAD_DEBUG"/>
+    <stringAttribute key="FILES.DOWNLOAD_DEBUG.RESOURCES.0.OPTION.ALSO_LOAD_SYMBOLS" value="true"/>
+    <stringAttribute key="FILES.DOWNLOAD_DEBUG.RESOURCES.0.OPTION.ON_DEMAND_LOAD" value="true"/>
+    <stringAttribute key="FILES.DOWNLOAD_DEBUG.RESOURCES.0.TYPE" value="TARGET_WORKING_DIR"/>
+    <stringAttribute key="FILES.DOWNLOAD_DEBUG.RESOURCES.0.VALUE" value=""/>
+    <stringAttribute key="FILES.DOWNLOAD_DEBUG.RESOURCES.1.OPTION.ALSO_LOAD_SYMBOLS" value="true"/>
+    <stringAttribute key="FILES.DOWNLOAD_DEBUG.RESOURCES.1.OPTION.ON_DEMAND_LOAD" value="true"/>
+    <stringAttribute key="FILES.DOWNLOAD_DEBUG.RESOURCES.1.TYPE" value="APP_ON_HOST_TO_DOWNLOAD"/>
+    <stringAttribute key="FILES.DOWNLOAD_DEBUG.RESOURCES.1.VALUE" value=""/>
+    <stringAttribute key="FILES.DOWNLOAD_DEBUG.RESOURCES.2.OPTION.ALSO_LOAD_SYMBOLS" value="true"/>
+    <stringAttribute key="FILES.DOWNLOAD_DEBUG.RESOURCES.2.OPTION.ON_DEMAND_LOAD" value="true"/>
+    <stringAttribute key="FILES.DOWNLOAD_DEBUG.RESOURCES.2.TYPE" value="TARGET_DOWNLOAD_DIR"/>
+    <stringAttribute key="FILES.DOWNLOAD_DEBUG.RESOURCES.2.VALUE" value=""/>
+    <intAttribute key="FILES.DOWNLOAD_DEBUG.RESOURCES.COUNT" value="3"/>
+    <intAttribute key="FILES.DOWNLOAD_DEBUG_ANDROID.RESOURCES.COUNT" value="0"/>
+    <listAttribute key="FILES.ICE_DEBUG">
+        <listEntry value="ON_DEMAND_LOAD"/>
+        <listEntry value="ALSO_LOAD_SYMBOLS"/>
+    </listAttribute>
+    <stringAttribute key="FILES.ICE_DEBUG.RESOURCES.0.OPTION.ALSO_LOAD_SYMBOLS" value="true"/>
+    <stringAttribute key="FILES.ICE_DEBUG.RESOURCES.0.OPTION.ON_DEMAND_LOAD" value="true"/>
+    <stringAttribute key="FILES.ICE_DEBUG.RESOURCES.0.TYPE" value="APP_ON_HOST_TO_DOWNLOAD"/>
+    <stringAttribute key="FILES.ICE_DEBUG.RESOURCES.0.VALUE" value="${workspace_loc:/RTX/Debug/RTX.axf}"/>
+    <intAttribute key="FILES.ICE_DEBUG.RESOURCES.COUNT" value="1"/>
+    <listAttribute key="FILES.ICE_DEBUG_WITH_ETB_TRACE">
+        <listEntry value="ON_DEMAND_LOAD"/>
+        <listEntry value="ALSO_LOAD_SYMBOLS"/>
+    </listAttribute>
+    <stringAttribute key="FILES.ICE_DEBUG_WITH_ETB_TRACE.RESOURCES.0.OPTION.ALSO_LOAD_SYMBOLS" value="true"/>
+    <stringAttribute key="FILES.ICE_DEBUG_WITH_ETB_TRACE.RESOURCES.0.OPTION.ON_DEMAND_LOAD" value="true"/>
+    <stringAttribute key="FILES.ICE_DEBUG_WITH_ETB_TRACE.RESOURCES.0.TYPE" value="APP_ON_HOST_TO_DOWNLOAD"/>
+    <stringAttribute key="FILES.ICE_DEBUG_WITH_ETB_TRACE.RESOURCES.0.VALUE" value=""/>
+    <intAttribute key="FILES.ICE_DEBUG_WITH_ETB_TRACE.RESOURCES.COUNT" value="1"/>
+    <listAttribute key="FILES.ICE_DEBUG_WITH_TRACE">
+        <listEntry value="ON_DEMAND_LOAD"/>
+        <listEntry value="ALSO_LOAD_SYMBOLS"/>
+    </listAttribute>
+    <stringAttribute key="FILES.ICE_DEBUG_WITH_TRACE.RESOURCES.0.OPTION.ALSO_LOAD_SYMBOLS" value="true"/>
+    <stringAttribute key="FILES.ICE_DEBUG_WITH_TRACE.RESOURCES.0.OPTION.ON_DEMAND_LOAD" value="true"/>
+    <stringAttribute key="FILES.ICE_DEBUG_WITH_TRACE.RESOURCES.0.TYPE" value="APP_ON_HOST_TO_DOWNLOAD"/>
+    <stringAttribute key="FILES.ICE_DEBUG_WITH_TRACE.RESOURCES.0.VALUE" value=""/>
+    <intAttribute key="FILES.ICE_DEBUG_WITH_TRACE.RESOURCES.COUNT" value="1"/>
+    <stringAttribute key="FILES.SELECTED_DEBUG_OPEATION" value="ICE_DEBUG"/>
+    <stringAttribute key="HOST_WORKING_DIR" value="${workspace_loc}"/>
+    <booleanAttribute key="HOST_WORKING_DIR_USE_DEFAULT" value="true"/>
+    <booleanAttribute key="KEY_COMMANDS_AFTER_CONNECT" value="false"/>
+    <stringAttribute key="KEY_COMMANDS_AFTER_CONNECT_TEXT" value=""/>
+    <booleanAttribute key="KEY_COMMANDS_AS_CONNECT" value="false"/>
+    <booleanAttribute key="RSE_USE_HOSTNAME" value="true"/>
+    <stringAttribute key="TCP_DISABLE_EXTENDED_MODE" value="true"/>
+    <booleanAttribute key="TCP_KILL_ON_EXIT" value="false"/>
+    <listAttribute key="TREE_NODE_PROPERTIES:1947036089719026861.viewid=2">
+        <listEntry value="NODE CACHE VERSION 1"/>
+        <listEntry value="EXPRESSION_GROUP:Expressions:VALUE:head:VALUE:(head)[0]"/>
+        <listEntry value="1"/>
+        <listEntry value="formatter"/>
+        <listEntry value="Hexadecimal"/>
+        <listEntry value="EXPRESSION_GROUP:Expressions:VALUE:H1:VALUE:(H1)-&gt;size"/>
+        <listEntry value="1"/>
+        <listEntry value="formatter"/>
+        <listEntry value="Hexadecimal"/>
+        <listEntry value="EXPRESSION_GROUP:Expressions:VALUE:head"/>
+        <listEntry value="1"/>
+        <listEntry value="element formatter"/>
+        <listEntry value="Hexadecimal"/>
+    </listAttribute>
+    <listAttribute key="TREE_NODE_PROPERTIES:debugger.view.ExpressionsView">
+        <listEntry value="NODE CACHE VERSION 1"/>
+        <listEntry value="EXPRESSION_GROUP:Expressions:VALUE:p_old[i]"/>
+        <listEntry value="1"/>
+        <listEntry value="formatter"/>
+        <listEntry value="Hexadecimal"/>
+        <listEntry value="EXPRESSION_GROUP:Expressions:VALUE:head"/>
+        <listEntry value="1"/>
+        <listEntry value="element formatter"/>
+        <listEntry value="Unsigned Decimal"/>
+    </listAttribute>
+    <listAttribute key="TREE_NODE_PROPERTIES:debugger.view.StackView">
+        <listEntry value="NODE CACHE VERSION 1"/>
+        <listEntry value="LOCALS:Locals:VALUE:C:/Users/t24gill/Desktop/group1-lab/RTX/src/kernel/k_mem.c::k_mem_init::H1:VALUE:C:/Users/t24gill/Desktop/group1-lab/RTX/src/kernel/k_mem.c::k_mem_init::H1-&gt;next"/>
+        <listEntry value="1"/>
+        <listEntry value="element formatter"/>
+        <listEntry value="Unsigned Decimal"/>
+        <listEntry value="LOCALS:Locals:VALUE:C:/Users/a2novose/Desktop/group1-lab/RTX/src/app/ae_mem.c::test_mem::p1"/>
+        <listEntry value="1"/>
+        <listEntry value="formatter"/>
+        <listEntry value="String (UTF-8)"/>
+    </listAttribute>
+    <listAttribute key="TREE_NODE_PROPERTIES:debugger.view.VariableTreeView">
+        <listEntry value="NODE CACHE VERSION 1"/>
+        <listEntry value="LOCALS:Locals:VALUE:N:/ece350w21-lab-ca9-prototype/lab4/RT/src/board/DE1_SoC_A9/interrupt.c::config_interrupt::value"/>
+        <listEntry value="1"/>
+        <listEntry value="formatter"/>
+        <listEntry value="Hexadecimal"/>
+        <listEntry value="LOCALS:Locals:VALUE:N:/ece350w21-lab-ca9-prototype/lab4/RT/src/board/DE1_SoC_A9/interrupt.c::config_interrupt::address"/>
+        <listEntry value="1"/>
+        <listEntry value="formatter"/>
+        <listEntry value="Hexadecimal"/>
+        <listEntry value="LOCALS:Locals:VALUE:N:/ece350w21-lab-ca9-prototype/lab4/RT/src/board/DE1_SoC_A9/printf.c::tfp_printf::fmt"/>
+        <listEntry value="2"/>
+        <listEntry value="formatter"/>
+        <listEntry value="Hexadecimal"/>
+        <listEntry value="element formatter"/>
+        <listEntry value="Character"/>
+        <listEntry value="GLOBALS:Globals:VALUE:C:/Users/a2novose/Desktop/group1-lab/RTX/src/kernel/k_mem.c::previous"/>
+        <listEntry value="1"/>
+        <listEntry value="element formatter"/>
+        <listEntry value="Unsigned Decimal"/>
+        <listEntry value="LOCALS:Locals:VALUE:C:/Users/a2novose/Desktop/group1-lab/RTX/src/app/ae_mem.c::test_mem::p5"/>
+        <listEntry value="1"/>
+        <listEntry value="formatter"/>
+        <listEntry value="Unsigned Decimal"/>
+        <listEntry value="LOCALS:Locals:VALUE:C:/Users/a2novose/Desktop/group1-lab/RTX/src/app/ae_mem.c::test_mem::p6"/>
+        <listEntry value="1"/>
+        <listEntry value="formatter"/>
+        <listEntry value="Unsigned Decimal"/>
+        <listEntry value="LOCALS:Locals:VALUE:C:/Users/a2novose/Desktop/group1-lab/RTX/src/app/ae_mem.c::test_mem::p7"/>
+        <listEntry value="1"/>
+        <listEntry value="formatter"/>
+        <listEntry value="Unsigned Decimal"/>
+        <listEntry value="LOCALS:Locals:VALUE:C:/Users/a2novose/Desktop/group1-lab/RTX/src/app/ae_mem.c::test_mem::p8"/>
+        <listEntry value="1"/>
+        <listEntry value="formatter"/>
+        <listEntry value="Unsigned Decimal"/>
+        <listEntry value="LOCALS:Locals:VALUE:C:/Users/l2rai/Desktop/group1-lab/RTX/src/kernel/k_mem.c::k_mem_dealloc::ptr_head:VALUE:C:/Users/l2rai/Desktop/group1-lab/RTX/src/kernel/k_mem.c::k_mem_dealloc::ptr_head-&gt;magic_num"/>
+        <listEntry value="1"/>
+        <listEntry value="formatter"/>
+        <listEntry value="Hexadecimal"/>
+        <listEntry value="LOCALS:Locals:VALUE:C:/Users/l2rai/Desktop/group1-lab/RTX/src/kernel/k_mem.c::k_mem_alloc::$0::new_alloc_header:VALUE:C:/Users/l2rai/Desktop/group1-lab/RTX/src/kernel/k_mem.c::k_mem_alloc::$0::new_alloc_header-&gt;size"/>
+        <listEntry value="1"/>
+        <listEntry value="formatter"/>
+        <listEntry value="Hexadecimal"/>
+        <listEntry value="LOCALS:Locals:VALUE:C:/Users/l2rai/Desktop/group1-lab/RTX/src/kernel/k_mem.c::k_mem_alloc::$0::new_alloc_header:VALUE:C:/Users/l2rai/Desktop/group1-lab/RTX/src/kernel/k_mem.c::k_mem_alloc::$0::new_alloc_header-&gt;magic_num"/>
+        <listEntry value="1"/>
+        <listEntry value="formatter"/>
+        <listEntry value="Hexadecimal"/>
+        <listEntry value="GLOBALS:Globals:VALUE:C:/Users/l2rai/Desktop/group1-lab/RTX/src/kernel/k_mem.c::head:VALUE:C:/Users/l2rai/Desktop/group1-lab/RTX/src/kernel/k_mem.c::head[0]"/>
+        <listEntry value="1"/>
+        <listEntry value="formatter"/>
+        <listEntry value="Hexadecimal"/>
+        <listEntry value="LOCALS:Locals:VALUE:C:/Users/l2rai/Desktop/group1-lab/RTX/src/app/ae_mem.c::test_mem::p1"/>
+        <listEntry value="1"/>
+        <listEntry value="formatter"/>
+        <listEntry value="Unsigned Decimal"/>
+        <listEntry value="LOCALS:Locals:VALUE:C:/Users/l2rai/Desktop/group1-lab/RTX/src/app/ae_mem.c::test_mem::p2"/>
+        <listEntry value="1"/>
+        <listEntry value="formatter"/>
+        <listEntry value="Unsigned Decimal"/>
+        <listEntry value="LOCALS:Locals:VALUE:C:/Users/l2rai/Desktop/group1-lab/RTX/src/app/ae_mem.c::test_mem::p3"/>
+        <listEntry value="1"/>
+        <listEntry value="formatter"/>
+        <listEntry value="Unsigned Decimal"/>
+        <listEntry value="LOCALS:Locals:VALUE:C:/Users/l2rai/Desktop/group1-lab/RTX/src/app/ae_mem.c::test_mem::p4"/>
+        <listEntry value="1"/>
+        <listEntry value="formatter"/>
+        <listEntry value="Unsigned Decimal"/>
+        <listEntry value="LOCALS:Locals:VALUE:C:/Users/l2rai/Desktop/group1-lab/RTX/src/app/ae_mem.c::test_mem::p5"/>
+        <listEntry value="1"/>
+        <listEntry value="formatter"/>
+        <listEntry value="Unsigned Decimal"/>
+        <listEntry value="LOCALS:Locals:VALUE:C:/Users/l2rai/Desktop/group1-lab/RTX/src/app/ae_mem.c::test_mem::p6"/>
+        <listEntry value="1"/>
+        <listEntry value="formatter"/>
+        <listEntry value="Unsigned Decimal"/>
+        <listEntry value="GLOBALS:Globals:VALUE:C:/Users/l2rai/Desktop/group1-lab/RTX/src/kernel/k_mem.c::head"/>
+        <listEntry value="1"/>
+        <listEntry value="element formatter"/>
+        <listEntry value="Hexadecimal"/>
+        <listEntry value="LOCALS:Locals:VALUE:C:/Users/r2chanch/Desktop/group1-lab/RTX/src/kernel/k_mem.c::coalesce::prev:VALUE:C:/Users/r2chanch/Desktop/group1-lab/RTX/src/kernel/k_mem.c::coalesce::prev-&gt;next:VALUE:C:/Users/r2chanch/Desktop/group1-lab/RTX/src/kernel/k_mem.c::coalesce::prev-&gt;next[0]"/>
+        <listEntry value="1"/>
+        <listEntry value="formatter"/>
+        <listEntry value="Hexadecimal"/>
+        <listEntry value="LOCALS:Locals:VALUE:C:/Users/r2chanch/Desktop/group1-lab/RTX/src/kernel/k_mem.c::coalesce::prev"/>
+        <listEntry value="1"/>
+        <listEntry value="formatter"/>
+        <listEntry value="Unsigned Decimal"/>
+        <listEntry value="LOCALS:Locals:VALUE:C:/Users/r2chanch/Desktop/group1-lab/RTX/src/kernel/k_mem.c::coalesce::prev:VALUE:C:/Users/r2chanch/Desktop/group1-lab/RTX/src/kernel/k_mem.c::coalesce::prev-&gt;next"/>
+        <listEntry value="1"/>
+        <listEntry value="element formatter"/>
+        <listEntry value="Hexadecimal"/>
+        <listEntry value="LOCALS:Locals:VALUE:C:/Users/r2chanch/Desktop/group1-lab/RTX/src/kernel/k_mem.c::coalesce::addr"/>
+        <listEntry value="1"/>
+        <listEntry value="formatter"/>
+        <listEntry value="Unsigned Decimal"/>
+        <listEntry value="LOCALS:Locals:VALUE:C:/Users/r2chanch/Desktop/group1-lab/RTX/src/app/ae_mem.c::test_mem::p3"/>
+        <listEntry value="1"/>
+        <listEntry value="formatter"/>
+        <listEntry value="Unsigned Decimal"/>
+        <listEntry value="LOCALS:Locals:VALUE:C:/Users/r2chanch/Desktop/group1-lab/RTX/src/app/ae_mem.c::test_mem::p4"/>
+        <listEntry value="1"/>
+        <listEntry value="formatter"/>
+        <listEntry value="Unsigned Decimal"/>
+        <listEntry value="LOCALS:Locals:VALUE:C:/Users/r2chanch/Desktop/group1-lab/RTX/src/app/ae_mem.c::test_mem::p5"/>
+        <listEntry value="1"/>
+        <listEntry value="formatter"/>
+        <listEntry value="Unsigned Decimal"/>
+        <listEntry value="LOCALS:Locals:VALUE:C:/Users/r2chanch/Desktop/group1-lab/RTX/src/app/ae_mem.c::test_mem::p6"/>
+        <listEntry value="1"/>
+        <listEntry value="formatter"/>
+        <listEntry value="Unsigned Decimal"/>
+        <listEntry value="GLOBALS:Globals:VALUE:C:/Users/r2chanch/Desktop/group1-lab/RTX/src/kernel/k_mem.c::head:VALUE:C:/Users/r2chanch/Desktop/group1-lab/RTX/src/kernel/k_mem.c::head[0]"/>
+        <listEntry value="1"/>
+        <listEntry value="formatter"/>
+        <listEntry value="Hexadecimal"/>
+        <listEntry value="GLOBALS:Globals:VALUE:C:/Users/r2chanch/Desktop/group1-lab/RTX/src/kernel/k_mem.c::head"/>
+        <listEntry value="1"/>
+        <listEntry value="element formatter"/>
+        <listEntry value="Hexadecimal"/>
+        <listEntry value="LOCALS:Locals:VALUE:C:/Users/a2novose/Desktop/group1-lab/RTX/src/app/ae_mem.c::heap_leakage_test::p_old"/>
+        <listEntry value="1"/>
+        <listEntry value="element formatter"/>
+        <listEntry value="String (UTF-8)"/>
+        <listEntry value="LOCALS:Locals:VALUE:C:/Users/a2novose/Desktop/group1-lab/RTX/src/app/ae_mem.c::heap_leakage_test::$0::i"/>
+        <listEntry value="1"/>
+        <listEntry value="formatter"/>
+        <listEntry value="Unsigned Decimal"/>
+        <listEntry value="LOCALS:Locals:VALUE:C:/Users/a2novose/Desktop/group1-lab/RTX/src/kernel/k_mem.c::k_mem_init::end_addr"/>
+        <listEntry value="1"/>
+        <listEntry value="formatter"/>
+        <listEntry value="Hexadecimal"/>
+        <listEntry value="LOCALS:Locals:VALUE:C:/Users/a2novose/Desktop/group1-lab/RTX/src/app/ae_mem.c::test_mem::p1"/>
+        <listEntry value="2"/>
+        <listEntry value="formatter"/>
+        <listEntry value="String (UTF-8)"/>
+        <listEntry value="element formatter"/>
+        <listEntry value="Character"/>
+        <listEntry value="GLOBALS:Globals:VALUE:C:/Users/a2novose/Desktop/group1-lab/RTX/src/kernel/k_mem.c::head:VALUE:C:/Users/a2novose/Desktop/group1-lab/RTX/src/kernel/k_mem.c::head[0]"/>
+        <listEntry value="1"/>
+        <listEntry value="formatter"/>
+        <listEntry value="Hexadecimal"/>
+        <listEntry value="LOCALS:Locals:VALUE:C:/Users/a2novose/Desktop/group1-lab/RTX/src/app/ae_mem.c::test_mem::os_end_addr"/>
+        <listEntry value="1"/>
+        <listEntry value="formatter"/>
+        <listEntry value="Hexadecimal"/>
+        <listEntry value="GLOBALS:Globals:VALUE:C:/Users/a2novose/Desktop/group1-lab/RTX/src/kernel/k_mem.c::head"/>
+        <listEntry value="1"/>
+        <listEntry value="element formatter"/>
+        <listEntry value="Hexadecimal"/>
+        <listEntry value="GLOBALS:Globals:VALUE:C:/Users/a2novose/Desktop/group1-lab/RTX/src/kernel/k_task.c::prio_array:ELEMENT_GROUP:C:/Users/a2novose/Desktop/group1-lab/RTX/src/kernel/k_task.c::prio_array.[0...99]:VALUE:C:/Users/a2novose/Desktop/group1-lab/RTX/src/kernel/k_task.c::prio_array[4]:VALUE:C:/Users/a2novose/Desktop/group1-lab/RTX/src/kernel/k_task.c::prio_array[4].next_prio"/>
+        <listEntry value="1"/>
+        <listEntry value="formatter"/>
+        <listEntry value="Unsigned Decimal"/>
+        <listEntry value="GLOBALS:Globals:VALUE:C:/Users/a2novose/Desktop/group1-lab/RTX/src/kernel/k_task.c::prio_array:ELEMENT_GROUP:C:/Users/a2novose/Desktop/group1-lab/RTX/src/kernel/k_task.c::prio_array.[0...99]:VALUE:C:/Users/a2novose/Desktop/group1-lab/RTX/src/kernel/k_task.c::prio_array[4]:VALUE:C:/Users/a2novose/Desktop/group1-lab/RTX/src/kernel/k_task.c::prio_array[4].prev_prio"/>
+        <listEntry value="1"/>
+        <listEntry value="formatter"/>
+        <listEntry value="Unsigned Decimal"/>
+        <listEntry value="LOCALS:Locals:VALUE:C:/Users/a2novose/Desktop/group1-lab/RTX/src/kernel/k_task.c::k_tsk_create::task:VALUE:C:/Users/a2novose/Desktop/group1-lab/RTX/src/kernel/k_task.c::k_tsk_create::task[0]"/>
+        <listEntry value="1"/>
+        <listEntry value="formatter"/>
+        <listEntry value="Unsigned Decimal"/>
+        <listEntry value="LOCALS:Locals:VALUE:C:/Users/a2novose/Desktop/group1-lab/RTX/src/kernel/k_task.c::k_tsk_create::p_taskinfo:VALUE:C:/Users/a2novose/Desktop/group1-lab/RTX/src/kernel/k_task.c::k_tsk_create::p_taskinfo.tid"/>
+        <listEntry value="1"/>
+        <listEntry value="formatter"/>
+        <listEntry value="Unsigned Decimal"/>
+        <listEntry value="LOCALS:Locals:VALUE:C:/Users/a2novose/Desktop/group1-lab/RTX/src/kernel/k_task.c::k_tsk_create::p_taskinfo:VALUE:C:/Users/a2novose/Desktop/group1-lab/RTX/src/kernel/k_task.c::k_tsk_create::p_taskinfo.prio"/>
+        <listEntry value="1"/>
+        <listEntry value="formatter"/>
+        <listEntry value="Unsigned Decimal"/>
+        <listEntry value="LOCALS:Locals:VALUE:C:/Users/a2novose/Desktop/group1-lab/RTX/src/kernel/k_task.c::k_tsk_create::p_taskinfo:VALUE:C:/Users/a2novose/Desktop/group1-lab/RTX/src/kernel/k_task.c::k_tsk_create::p_taskinfo.state"/>
+        <listEntry value="1"/>
+        <listEntry value="formatter"/>
+        <listEntry value="Unsigned Decimal"/>
+        <listEntry value="LOCALS:Locals:VALUE:C:/Users/a2novose/Desktop/group1-lab/RTX/src/kernel/k_task.c::k_tsk_create::p_taskinfo:VALUE:C:/Users/a2novose/Desktop/group1-lab/RTX/src/kernel/k_task.c::k_tsk_create::p_taskinfo.priv"/>
+        <listEntry value="1"/>
+        <listEntry value="formatter"/>
+        <listEntry value="Unsigned Decimal"/>
+        <listEntry value="GLOBALS:Globals:VALUE:C:/Users/a2novose/Desktop/group1-lab/RTX/src/kernel/k_task.c::prio_array:ELEMENT_GROUP:C:/Users/a2novose/Desktop/group1-lab/RTX/src/kernel/k_task.c::prio_array.[100...199]:VALUE:C:/Users/a2novose/Desktop/group1-lab/RTX/src/kernel/k_task.c::prio_array[150]:VALUE:C:/Users/a2novose/Desktop/group1-lab/RTX/src/kernel/k_task.c::prio_array[150].next_prio"/>
+        <listEntry value="1"/>
+        <listEntry value="formatter"/>
+        <listEntry value="Unsigned Decimal"/>
+        <listEntry value="GLOBALS:Globals:VALUE:C:/Users/a2novose/Desktop/group1-lab/RTX/src/kernel/k_task.c::prio_array:ELEMENT_GROUP:C:/Users/a2novose/Desktop/group1-lab/RTX/src/kernel/k_task.c::prio_array.[100...199]:VALUE:C:/Users/a2novose/Desktop/group1-lab/RTX/src/kernel/k_task.c::prio_array[150]:VALUE:C:/Users/a2novose/Desktop/group1-lab/RTX/src/kernel/k_task.c::prio_array[150].prev_prio"/>
+        <listEntry value="1"/>
+        <listEntry value="formatter"/>
+        <listEntry value="Unsigned Decimal"/>
+        <listEntry value="LOCALS:Locals:VALUE:C:/Users/a2novose/Desktop/group1-lab/RTX/src/kernel/k_task.c::k_tsk_set_prio::target_task:VALUE:C:/Users/a2novose/Desktop/group1-lab/RTX/src/kernel/k_task.c::k_tsk_set_prio::target_task-&gt;tid"/>
+        <listEntry value="1"/>
+        <listEntry value="formatter"/>
+        <listEntry value="Unsigned Decimal"/>
+        <listEntry value="LOCALS:Locals:VALUE:C:/Users/a2novose/Desktop/group1-lab/RTX/src/kernel/k_task.c::k_tsk_set_prio::target_task:VALUE:C:/Users/a2novose/Desktop/group1-lab/RTX/src/kernel/k_task.c::k_tsk_set_prio::target_task-&gt;prio"/>
+        <listEntry value="1"/>
+        <listEntry value="formatter"/>
+        <listEntry value="Unsigned Decimal"/>
+        <listEntry value="LOCALS:Locals:VALUE:C:/Users/a2novose/Desktop/group1-lab/RTX/src/kernel/k_task.c::k_tsk_set_prio::target_task:VALUE:C:/Users/a2novose/Desktop/group1-lab/RTX/src/kernel/k_task.c::k_tsk_set_prio::target_task-&gt;state"/>
+        <listEntry value="1"/>
+        <listEntry value="formatter"/>
+        <listEntry value="Unsigned Decimal"/>
+        <listEntry value="LOCALS:Locals:VALUE:C:/Users/a2novose/Desktop/group1-lab/RTX/src/kernel/k_task.c::k_tsk_set_prio::target_task:VALUE:C:/Users/a2novose/Desktop/group1-lab/RTX/src/kernel/k_task.c::k_tsk_set_prio::target_task-&gt;priv"/>
+        <listEntry value="1"/>
+        <listEntry value="formatter"/>
+        <listEntry value="Unsigned Decimal"/>
+        <listEntry value="LOCALS:Locals:VALUE:C:/Users/a2novose/Desktop/group1-lab/RTX/src/kernel/k_task.c::scheduler::task:VALUE:C:/Users/a2novose/Desktop/group1-lab/RTX/src/kernel/k_task.c::scheduler::task-&gt;tid"/>
+        <listEntry value="1"/>
+        <listEntry value="formatter"/>
+        <listEntry value="Unsigned Decimal"/>
+        <listEntry value="LOCALS:Locals:VALUE:C:/Users/a2novose/Desktop/group1-lab/RTX/src/kernel/k_task.c::scheduler::task:VALUE:C:/Users/a2novose/Desktop/group1-lab/RTX/src/kernel/k_task.c::scheduler::task-&gt;prio"/>
+        <listEntry value="1"/>
+        <listEntry value="formatter"/>
+        <listEntry value="Unsigned Decimal"/>
+        <listEntry value="LOCALS:Locals:VALUE:C:/Users/a2novose/Desktop/group1-lab/RTX/src/kernel/k_task.c::scheduler::task:VALUE:C:/Users/a2novose/Desktop/group1-lab/RTX/src/kernel/k_task.c::scheduler::task-&gt;state"/>
+        <listEntry value="1"/>
+        <listEntry value="formatter"/>
+        <listEntry value="Unsigned Decimal"/>
+        <listEntry value="LOCALS:Locals:VALUE:C:/Users/a2novose/Desktop/group1-lab/RTX/src/kernel/k_task.c::scheduler::task:VALUE:C:/Users/a2novose/Desktop/group1-lab/RTX/src/kernel/k_task.c::scheduler::task-&gt;priv"/>
+        <listEntry value="1"/>
+        <listEntry value="formatter"/>
+        <listEntry value="Unsigned Decimal"/>
+        <listEntry value="LOCALS:Locals:VALUE:C:/Users/a2novose/Desktop/group1-lab/RTX/src/kernel/k_task.c::k_tsk_run_new::p_tcb_old:VALUE:C:/Users/a2novose/Desktop/group1-lab/RTX/src/kernel/k_task.c::k_tsk_run_new::p_tcb_old-&gt;tid"/>
+        <listEntry value="1"/>
+        <listEntry value="formatter"/>
+        <listEntry value="Unsigned Decimal"/>
+        <listEntry value="LOCALS:Locals:VALUE:C:/Users/a2novose/Desktop/group1-lab/RTX/src/kernel/k_task.c::k_tsk_run_new::p_tcb_old:VALUE:C:/Users/a2novose/Desktop/group1-lab/RTX/src/kernel/k_task.c::k_tsk_run_new::p_tcb_old-&gt;prio"/>
+        <listEntry value="1"/>
+        <listEntry value="formatter"/>
+        <listEntry value="Unsigned Decimal"/>
+        <listEntry value="LOCALS:Locals:VALUE:C:/Users/a2novose/Desktop/group1-lab/RTX/src/kernel/k_task.c::k_tsk_run_new::p_tcb_old:VALUE:C:/Users/a2novose/Desktop/group1-lab/RTX/src/kernel/k_task.c::k_tsk_run_new::p_tcb_old-&gt;state"/>
+        <listEntry value="1"/>
+        <listEntry value="formatter"/>
+        <listEntry value="Unsigned Decimal"/>
+        <listEntry value="LOCALS:Locals:VALUE:C:/Users/a2novose/Desktop/group1-lab/RTX/src/kernel/k_task.c::k_tsk_run_new::p_tcb_old:VALUE:C:/Users/a2novose/Desktop/group1-lab/RTX/src/kernel/k_task.c::k_tsk_run_new::p_tcb_old-&gt;priv"/>
+        <listEntry value="1"/>
+        <listEntry value="formatter"/>
+        <listEntry value="Unsigned Decimal"/>
+        <listEntry value="GLOBALS:Globals:VALUE:C:/Users/a2novose/Desktop/group1-lab/RTX/src/kernel/k_task.c::prio_array:ELEMENT_GROUP:C:/Users/a2novose/Desktop/group1-lab/RTX/src/kernel/k_task.c::prio_array.[100...199]:VALUE:C:/Users/a2novose/Desktop/group1-lab/RTX/src/kernel/k_task.c::prio_array[100]:VALUE:C:/Users/a2novose/Desktop/group1-lab/RTX/src/kernel/k_task.c::prio_array[100].next_prio"/>
+        <listEntry value="1"/>
+        <listEntry value="formatter"/>
+        <listEntry value="Unsigned Decimal"/>
+        <listEntry value="GLOBALS:Globals:VALUE:C:/Users/a2novose/Desktop/group1-lab/RTX/src/kernel/k_task.c::prio_array:ELEMENT_GROUP:C:/Users/a2novose/Desktop/group1-lab/RTX/src/kernel/k_task.c::prio_array.[100...199]:VALUE:C:/Users/a2novose/Desktop/group1-lab/RTX/src/kernel/k_task.c::prio_array[100]:VALUE:C:/Users/a2novose/Desktop/group1-lab/RTX/src/kernel/k_task.c::prio_array[100].prev_prio"/>
+        <listEntry value="1"/>
+        <listEntry value="formatter"/>
+        <listEntry value="Unsigned Decimal"/>
+        <listEntry value="LOCALS:Locals:VALUE:C:/Users/a2novose/Desktop/group1-lab/RTX/src/kernel/k_task.c::k_tsk_exit::p_tcb_old:VALUE:C:/Users/a2novose/Desktop/group1-lab/RTX/src/kernel/k_task.c::k_tsk_exit::p_tcb_old-&gt;tid"/>
+        <listEntry value="1"/>
+        <listEntry value="formatter"/>
+        <listEntry value="Unsigned Decimal"/>
+        <listEntry value="LOCALS:Locals:VALUE:C:/Users/a2novose/Desktop/group1-lab/RTX/src/kernel/k_mem.c::k_mem_dealloc::ptr"/>
+        <listEntry value="1"/>
+        <listEntry value="formatter"/>
+        <listEntry value="Unsigned Decimal"/>
+        <listEntry value="LOCALS:Locals:VALUE:C:/Users/a2novose/Desktop/group1-lab/RTX/src/kernel/k_mem.c::k_mem_dealloc::curr_free_header"/>
+        <listEntry value="1"/>
+        <listEntry value="formatter"/>
+        <listEntry value="Unsigned Decimal"/>
+        <listEntry value="LOCALS:Locals:VALUE:C:/Users/a2novose/Desktop/group1-lab/RTX/src/kernel/k_mem.c::k_mem_dealloc::prev_free_header"/>
+        <listEntry value="1"/>
+        <listEntry value="formatter"/>
+        <listEntry value="Unsigned Decimal"/>
+        <listEntry value="LOCALS:Locals:VALUE:C:/Users/a2novose/Desktop/group1-lab/RTX/src/kernel/k_task.c::k_tsk_create::prio"/>
+        <listEntry value="1"/>
+        <listEntry value="formatter"/>
+        <listEntry value="Unsigned Decimal"/>
+        <listEntry value="LOCALS:Locals:VALUE:C:/Users/a2novose/Desktop/group1-lab/RTX/src/kernel/k_task.c::k_tsk_create::task"/>
+        <listEntry value="2"/>
+        <listEntry value="formatter"/>
+        <listEntry value="Hexadecimal"/>
+        <listEntry value="element formatter"/>
+        <listEntry value="Unsigned Decimal"/>
+        <listEntry value="LOCALS:Locals:VALUE:C:/Users/a2novose/Desktop/group1-lab/RTX/src/kernel/k_task.c::k_tsk_set_prio::task_id"/>
+        <listEntry value="1"/>
+        <listEntry value="formatter"/>
+        <listEntry value="Unsigned Decimal"/>
+        <listEntry value="LOCALS:Locals:VALUE:C:/Users/a2novose/Desktop/group1-lab/RTX/src/kernel/k_task.c::k_tsk_set_prio::prio"/>
+        <listEntry value="1"/>
+        <listEntry value="formatter"/>
+        <listEntry value="Unsigned Decimal"/>
+        <listEntry value="GLOBALS:Globals:VALUE:C:/Users/a2novose/Desktop/group1-lab/RTX/src/kernel/k_task.c::gp_current_task:VALUE:C:/Users/a2novose/Desktop/group1-lab/RTX/src/kernel/k_task.c::gp_current_task-&gt;tid"/>
+        <listEntry value="1"/>
+        <listEntry value="formatter"/>
+        <listEntry value="Unsigned Decimal"/>
+        <listEntry value="GLOBALS:Globals:VALUE:C:/Users/a2novose/Desktop/group1-lab/RTX/src/kernel/k_task.c::gp_current_task:VALUE:C:/Users/a2novose/Desktop/group1-lab/RTX/src/kernel/k_task.c::gp_current_task-&gt;prio"/>
+        <listEntry value="1"/>
+        <listEntry value="formatter"/>
+        <listEntry value="Unsigned Decimal"/>
+        <listEntry value="GLOBALS:Globals:VALUE:C:/Users/a2novose/Desktop/group1-lab/RTX/src/kernel/k_task.c::gp_current_task:VALUE:C:/Users/a2novose/Desktop/group1-lab/RTX/src/kernel/k_task.c::gp_current_task-&gt;state"/>
+        <listEntry value="1"/>
+        <listEntry value="formatter"/>
+        <listEntry value="Unsigned Decimal"/>
+        <listEntry value="GLOBALS:Globals:VALUE:C:/Users/a2novose/Desktop/group1-lab/RTX/src/kernel/k_task.c::gp_current_task:VALUE:C:/Users/a2novose/Desktop/group1-lab/RTX/src/kernel/k_task.c::gp_current_task-&gt;priv"/>
+        <listEntry value="1"/>
+        <listEntry value="formatter"/>
+        <listEntry value="Unsigned Decimal"/>
+        <listEntry value="LOCALS:Locals:VALUE:C:/Users/a2novose/Desktop/group1-lab/RTX/src/kernel/k_mem.c::k_alloc_p_stack::task:VALUE:C:/Users/a2novose/Desktop/group1-lab/RTX/src/kernel/k_mem.c::k_alloc_p_stack::task-&gt;tid"/>
+        <listEntry value="1"/>
+        <listEntry value="formatter"/>
+        <listEntry value="Unsigned Decimal"/>
+        <listEntry value="LOCALS:Locals:VALUE:C:/Users/a2novose/Desktop/group1-lab/RTX/src/kernel/k_mem.c::k_alloc_p_stack::task:VALUE:C:/Users/a2novose/Desktop/group1-lab/RTX/src/kernel/k_mem.c::k_alloc_p_stack::task-&gt;prio"/>
+        <listEntry value="1"/>
+        <listEntry value="formatter"/>
+        <listEntry value="Unsigned Decimal"/>
+        <listEntry value="LOCALS:Locals:VALUE:C:/Users/a2novose/Desktop/group1-lab/RTX/src/kernel/k_mem.c::k_alloc_p_stack::task:VALUE:C:/Users/a2novose/Desktop/group1-lab/RTX/src/kernel/k_mem.c::k_alloc_p_stack::task-&gt;state"/>
+        <listEntry value="1"/>
+        <listEntry value="formatter"/>
+        <listEntry value="Unsigned Decimal"/>
+        <listEntry value="LOCALS:Locals:VALUE:C:/Users/a2novose/Desktop/group1-lab/RTX/src/kernel/k_mem.c::k_alloc_p_stack::task:VALUE:C:/Users/a2novose/Desktop/group1-lab/RTX/src/kernel/k_mem.c::k_alloc_p_stack::task-&gt;priv"/>
+        <listEntry value="1"/>
+        <listEntry value="formatter"/>
+        <listEntry value="Unsigned Decimal"/>
+        <listEntry value="GLOBALS:Globals:VALUE:C:/Users/a2novose/Desktop/group1-lab/RTX/src/kernel/k_task.c::prio_head"/>
+        <listEntry value="1"/>
+        <listEntry value="formatter"/>
+        <listEntry value="Unsigned Decimal"/>
+        <listEntry value="GLOBALS:Globals:VALUE:C:/Users/a2novose/Desktop/group1-lab/RTX/src/kernel/k_task.c::tid_count"/>
+        <listEntry value="1"/>
+        <listEntry value="formatter"/>
+        <listEntry value="Unsigned Decimal"/>
+        <listEntry value="LOCALS:Locals:VALUE:C:/Users/a2novose/Desktop/group1-lab/RTX/src/kernel/k_mem.c::k_alloc_p_stack::address_value"/>
+        <listEntry value="2"/>
+        <listEntry value="formatter"/>
+        <listEntry value="Unsigned Decimal"/>
+        <listEntry value="element formatter"/>
+        <listEntry value="Unsigned Decimal"/>
+        <listEntry value="LOCALS:Locals:VALUE:C:/Users/a2novose/Desktop/group1-lab/RTX/src/kernel/k_task.c::k_tsk_create_new::tid"/>
+        <listEntry value="1"/>
+        <listEntry value="formatter"/>
+        <listEntry value="Unsigned Decimal"/>
+        <listEntry value="LOCALS:Locals:VALUE:C:/Users/a2novose/Desktop/group1-lab/RTX/src/kernel/k_task.c::k_tsk_create_new::sp"/>
+        <listEntry value="1"/>
+        <listEntry value="element formatter"/>
+        <listEntry value="Unsigned Decimal"/>
+    </listAttribute>
+    <booleanAttribute key="VFS_ENABLED" value="true"/>
+    <stringAttribute key="VFS_LOCAL_DIR" value="${workspace_loc}"/>
+    <stringAttribute key="VFS_REMOTE_MOUNT" value="/writeable"/>
+    <stringAttribute key="breakpoints" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;breakpoints order=&quot;ALPHA&quot;&gt;&#10;&#9;&lt;breakpoint ignorecount=&quot;0&quot; threadenabled=&quot;no&quot; core_list=&quot;&quot; continue=&quot;no&quot; verboseBreakpoints=&quot;yes&quot; kind=&quot;SOURCEPOSITION&quot;&gt;&#10;&#9;&#9;&lt;master_location index=&quot;0&quot; enabled=&quot;true&quot; version=&quot;2&quot; address=&quot;S:0x00102A0C&quot; debugFile=&quot;C:/Users/a2novose/Desktop/group1-lab/RTX/src/app/ae_priv_tasks.c&quot; hostFile=&quot;C:\Users\a2novose\Desktop\group1-lab\RTX\src\app\ae_priv_tasks.c&quot; line=&quot;162&quot; function=&quot;ktask1&quot;/&gt;&#10;&#9;&#9;&lt;location index=&quot;0&quot; enabled=&quot;true&quot; version=&quot;2&quot; address=&quot;S:0x00102878&quot; debugFile=&quot;C:/Users/a2novose/Desktop/group1-lab/RTX/src/app/ae_priv_tasks.c&quot; hostFile=&quot;C:\Users\a2novose\Desktop\group1-lab\RTX\src\app\ae_priv_tasks.c&quot; line=&quot;162&quot; function=&quot;ktask1&quot;/&gt;&#10;&#9;&lt;/breakpoint&gt;&#10;&#9;&lt;breakpoint ignorecount=&quot;0&quot; threadenabled=&quot;no&quot; core_list=&quot;&quot; continue=&quot;no&quot; verboseBreakpoints=&quot;yes&quot; kind=&quot;SOURCEPOSITION&quot;&gt;&#10;&#9;&#9;&lt;master_location index=&quot;0&quot; enabled=&quot;true&quot; version=&quot;2&quot; address=&quot;S:0x00102A9C&quot; debugFile=&quot;C:/Users/a2novose/Desktop/group1-lab/RTX/src/app/ae_priv_tasks.c&quot; hostFile=&quot;C:\Users\a2novose\Desktop\group1-lab\RTX\src\app\ae_priv_tasks.c&quot; line=&quot;174&quot; function=&quot;ktask1&quot;/&gt;&#10;&#9;&#9;&lt;location index=&quot;0&quot; enabled=&quot;true&quot; version=&quot;2&quot; address=&quot;S:0x00102908&quot; debugFile=&quot;C:/Users/a2novose/Desktop/group1-lab/RTX/src/app/ae_priv_tasks.c&quot; hostFile=&quot;C:\Users\a2novose\Desktop\group1-lab\RTX\src\app\ae_priv_tasks.c&quot; line=&quot;174&quot; function=&quot;ktask1&quot;/&gt;&#10;&#9;&lt;/breakpoint&gt;&#10;&lt;/breakpoints&gt;&#10;"/>
+    <listAttribute key="com.arm.debug.views.common.AddressTracker.debugger.view.DisassemblyView.addresses">
+        <listEntry value=""/>
+        <listEntry value="S:0x00100308"/>
+        <listEntry value="&lt;Next Instruction&gt;"/>
+        <listEntry value="0XFF001014"/>
+        <listEntry value="arm_timer_set_prescaler"/>
+        <listEntry value="arm_timer_disable"/>
+    </listAttribute>
+    <listAttribute key="com.arm.debug.views.common.AddressTracker.debugger.view.DisassemblyView.ranges">
+        <listEntry value=""/>
+        <listEntry value="100"/>
+        <listEntry value="100"/>
+        <listEntry value="100"/>
+        <listEntry value="100"/>
+        <listEntry value="100"/>
+    </listAttribute>
+    <listAttribute key="com.arm.debug.views.common.AddressTracker.debugger.view.MemoryView.addresses">
+        <listEntry value=""/>
+        <listEntry value="0x0012B74C"/>
+        <listEntry value="1225548"/>
+        <listEntry value="1225552"/>
+        <listEntry value="0x04C9B6D4"/>
+        <listEntry value="0x04C9B6DC"/>
+        <listEntry value="0x149934"/>
+        <listEntry value="0x1749934"/>
+        <listEntry value="0x174992C"/>
+        <listEntry value="0x0E33F20C"/>
+        <listEntry value="0x0014992C"/>
+        <listEntry value="0x00149934"/>
+        <listEntry value="0x14992C"/>
+        <listEntry value="1225636"/>
+        <listEntry value="1225644"/>
+        <listEntry value="1349996"/>
+        <listEntry value="1349992"/>
+        <listEntry value="0x0014996C"/>
+        <listEntry value="0x00149964"/>
+        <listEntry value="1224496"/>
+    </listAttribute>
+    <listAttribute key="com.arm.debug.views.common.AddressTracker.debugger.view.MemoryView.ranges">
+        <listEntry value=""/>
+        <listEntry value="8"/>
+        <listEntry value="8"/>
+        <listEntry value="8"/>
+        <listEntry value="8"/>
+        <listEntry value="8"/>
+        <listEntry value="8"/>
+        <listEntry value="8"/>
+        <listEntry value="8"/>
+        <listEntry value="8"/>
+        <listEntry value="8"/>
+        <listEntry value="8"/>
+        <listEntry value="8"/>
+        <listEntry value="8"/>
+        <listEntry value="8"/>
+        <listEntry value="8"/>
+        <listEntry value="8"/>
+        <listEntry value="8"/>
+        <listEntry value="8"/>
+        <listEntry value="4"/>
+    </listAttribute>
+    <stringAttribute key="config_db_activity_name" value="Debug Cortex-A9_0"/>
+    <stringAttribute key="config_db_connection_keys" value="rvi_address target_initialization_script dtsl_config dtsl_tracecapture_option dtsl_config_script config_file setup TCP_KILL_ON_EXIT TCP_DISABLE_EXTENDED_MODE"/>
+    <stringAttribute key="config_db_connection_type" value="Bare Metal Debug"/>
+    <stringAttribute key="config_db_platform_name" value="Intel SoC FPGA - Cyclone V SoC (Dual Core)"/>
+    <stringAttribute key="config_db_project_type" value="Bare Metal Debug"/>
+    <stringAttribute key="config_db_project_type_id" value="BARE_METAL"/>
+    <stringAttribute key="config_db_taxonomy_id" value="/platform/intelsocfpga/cyclonevsoc_dualcore_"/>
+    <stringAttribute key="config_file" value="CDB://../Arria V SoC/Altera_DEV5XS1.rvc"/>
+    <booleanAttribute key="connectOnly" value="false"/>
+    <stringAttribute key="connection_type" value="USB-Blaster"/>
+    <listAttribute key="debugger.view.DisassemblyView:current">
+        <listEntry value=""/>
+        <listEntry value=""/>
+    </listAttribute>
+    <listAttribute key="debugger.view.DisassemblyView:current:3375346116383003196.viewid=2">
+        <listEntry value=""/>
+        <listEntry value=""/>
+    </listAttribute>
+    <listAttribute key="debugger.view.DisassemblyView:current:8581874436178048151.viewid=2">
+        <listEntry value="&lt;Next Instruction&gt;"/>
+        <listEntry value="100"/>
+    </listAttribute>
+    <listAttribute key="debugger.view.ExpressionsView">
+        <listEntry value="p1 == NULL"/>
+        <listEntry value="end_addr"/>
+        <listEntry value="0x3FFFFFFF - (os_end_addr + 2*sizeof(U32)) + 1"/>
+    </listAttribute>
+    <mapAttribute key="debugger.view.ExpressionsView.ExpressionsData">
+        <mapEntry key="0" value=""/>
+        <mapEntry key="1" value=""/>
+        <mapEntry key="2" value="NODE_TRANSFER_ELEMENT_COUNT,0;NODE_TRANSFER_ELEMENT_SIZE_IN_BYTES,4;NODE_TYPE,VALUE;FORMATTER,Unsigned Decimal"/>
+    </mapAttribute>
+    <stringAttribute key="debugger.view.ExpressionsView:DebugOutlineColumnState" value="OutlineConfig1&#9;8&#9;0&#9;true&#9;true&#9;187&#9;-1&#9;true&#9;1&#9;false&#9;true&#9;90&#9;-1&#9;true&#9;2&#9;true&#9;true&#9;45&#9;-1&#9;true&#9;3&#9;true&#9;true&#9;41&#9;-1&#9;true&#9;4&#9;true&#9;true&#9;50&#9;-1&#9;true&#9;5&#9;true&#9;false&#9;37&#9;-1&#9;true&#9;6&#9;true&#9;true&#9;62&#9;-1&#9;true&#9;7&#9;true&#9;true&#9;53&#9;-1&#9;true"/>
+    <stringAttribute key="debugger.view.MemoryView" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;page&gt;&#10;&#9;&lt;memoryView/&gt;&#10;&lt;/page&gt;&#10;"/>
+    <listAttribute key="debugger.view.MemoryView:current">
+        <listEntry value=""/>
+        <listEntry value=""/>
+    </listAttribute>
+    <stringAttribute key="debugger.view.NewRegisterView:DebugOutlineColumnState" value="OutlineConfig1&#9;8&#9;0&#9;true&#9;true&#9;49&#9;-1&#9;true&#9;1&#9;false&#9;true&#9;109&#9;-1&#9;true&#9;2&#9;true&#9;true&#9;45&#9;-1&#9;true&#9;3&#9;false&#9;true&#9;47&#9;-1&#9;true&#9;4&#9;false&#9;true&#9;56&#9;-1&#9;true&#9;5&#9;true&#9;true&#9;37&#9;-1&#9;true&#9;6&#9;false&#9;true&#9;74&#9;-1&#9;true&#9;7&#9;true&#9;true&#9;53&#9;-1&#9;true"/>
+    <stringAttribute key="debugger.view.NewRegisterView:_selectedRegisterSet" value="All registers"/>
+    <mapAttribute key="debugger.view.NewRegisterView_registerSets"/>
+    <stringAttribute key="debugger.view.StackView:DebugOutlineColumnState" value="OutlineConfig1&#9;8&#9;0&#9;true&#9;true&#9;49&#9;-1&#9;true&#9;1&#9;false&#9;true&#9;90&#9;-1&#9;true&#9;2&#9;true&#9;false&#9;108&#9;-1&#9;true&#9;3&#9;true&#9;true&#9;41&#9;-1&#9;true&#9;4&#9;true&#9;true&#9;50&#9;-1&#9;true&#9;5&#9;true&#9;true&#9;37&#9;-1&#9;true&#9;6&#9;true&#9;true&#9;62&#9;-1&#9;true&#9;7&#9;true&#9;true&#9;53&#9;-1&#9;true"/>
+    <stringAttribute key="debugger.view.VariableTreeView:DebugOutlineColumnState" value="OutlineConfig1&#9;8&#9;0&#9;true&#9;false&#9;149&#9;-1&#9;true&#9;1&#9;false&#9;true&#9;109&#9;-1&#9;true&#9;2&#9;true&#9;false&#9;108&#9;-1&#9;true&#9;3&#9;true&#9;true&#9;104&#9;-1&#9;true&#9;4&#9;true&#9;false&#9;50&#9;-1&#9;true&#9;5&#9;true&#9;true&#9;37&#9;-1&#9;true&#9;6&#9;true&#9;false&#9;139&#9;-1&#9;true&#9;7&#9;true&#9;true&#9;53&#9;-1&#9;true"/>
+    <listAttribute key="debugger.view.VariableTreeView:USER_ADDED_FILE_STATICS"/>
+    <listAttribute key="debugger.view.VariableTreeView:USER_ADDED_GLOBALS">
+        <listEntry value="&quot;src/app/ae_priv_tasks.c&quot;::my_memory"/>
+        <listEntry value="&quot;src/kernel/k_task.c&quot;::dormant_head"/>
+        <listEntry value="&quot;src/kernel/k_task.c&quot;::gp_current_task"/>
+        <listEntry value="&quot;src/kernel/k_task.c&quot;::prio_array"/>
+        <listEntry value="&quot;src/kernel/k_task.c&quot;::prio_head"/>
+        <listEntry value="&quot;src/kernel/k_task.c&quot;::tid_count"/>
+    </listAttribute>
+    <booleanAttribute key="debugger.view.expression.DrawAsHex" value="false"/>
+    <booleanAttribute key="debugger.view.register.DrawAsHex" value="false"/>
+    <booleanAttribute key="debugger.view.variable.DrawAsHex" value="false"/>
+    <stringAttribute key="dtsl_config" value="USBBlaster_DtslScript"/>
+    <stringAttribute key="dtsl_config_script" value="CDB://../Arria V SoC/dtsl_config_script.py"/>
+    <stringAttribute key="dtsl_options_file" value="default"/>
+    <stringAttribute key="dtsl_tracecapture_option" value="options.traceBuffer.traceCapture"/>
+    <stringAttribute key="launch_configuration_version" value="2020.0"/>
+    <booleanAttribute key="linuxOS" value="false"/>
+    <stringAttribute key="rddi_type" value="rddi-debug-rvi"/>
+    <booleanAttribute key="runAfterConnect" value="false"/>
+    <stringAttribute key="rvi_address" value="DE-SoC on localhost [USB-1]:DE-SoC USB-1"/>
+    <mapAttribute key="scripts_view_script_links">
+        <mapEntry key="C:\Program Files\Arm\Development Studio 2020.0\sw\debugger\configdb\Scripts\altera_target_check.py" value=""/>
+    </mapAttribute>
+    <listAttribute key="setup">
+        <listEntry value="CDB://../../../Scripts/altera_debug_server.py"/>
+        <listEntry value="CDB://rddi-dap_cfg-altera.txt rddi-dap_altera"/>
+    </listAttribute>
+    <booleanAttribute key="single_platform" value="true"/>
+    <stringAttribute key="stopAtExpression" value="*$ENTRYPOINT"/>
+    <stringAttribute key="target_initialization_script" value="CDB://../../../Scripts/altera_target_check.py"/>
+    <stringAttribute key="watchpoints" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;watchpoints&gt;&#10;&lt;/watchpoints&gt;&#10;"/>
+</launchConfiguration>

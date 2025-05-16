@@ -1,0 +1,3 @@
+C:\Software\Altera\15.1\quartus\bin64\quartus_pgm.exe -c 1 -m jtag -o "p;C:\Users\a2novose\Desktop\group1-lab\DE1-SoC\DE1_SoC_Computer.sof@2"
+
+C:\Software\Altera\15.1\quartus\bin64\quartus_hps.exe -c 1 -o GDBSERVER --gdbport0=3008 --preloader=C:\Users\a2novose\Desktop\group1-lab\DE1-SoC\de1-soc.srec --preloaderaddr=0xffff13a0
